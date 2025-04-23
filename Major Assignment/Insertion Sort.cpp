@@ -30,8 +30,8 @@ double averageTime(int arr[], int n) {
 }
 
 int main() {
-    int arr1[] = {5, 4, 3, 2, 1};
-    int arr2[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+    int arr1[5] = {5, 4, 3, 2, 1};
+    int arr2[10] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
     int arr3[50]; for (int i = 0; i < 50; i++) arr3[i] = 50 - i;
     int arr4[100]; for (int i = 0; i < 100; i++) arr4[i] = 100 - i;
 
