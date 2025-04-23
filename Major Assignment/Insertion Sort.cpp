@@ -36,10 +36,10 @@ int main() {
     int arr4[100]; for (int i = 0; i < 100; i++) arr4[i] = 100 - i;
 
     cout << "Insertion Sort Average Times (10000 runs):\n";
-    printf("Arr1 (5):    %.2f us\n", averageTime(arr1, 5));
-    printf("Arr2 (10):   %.2f us\n", averageTime(arr2, 10));
-    printf("Arr3 (50):   %.2f us\n", averageTime(arr3, 50));
-    printf("Arr4 (100):  %.2f us\n", averageTime(arr4, 100));
+    cout << "Arr1 (5):    " << averageTime(arr1, 5) << " us\n";
+    cout << "Arr2 (10):   " << averageTime(arr2, 10) << " us\n";
+    cout << "Arr3 (50):   " << averageTime(arr3, 50) << " us\n";
+    cout << "Arr4 (100):  " << averageTime(arr4, 100) << " us\n";
 
     return 0;
 }
