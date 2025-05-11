@@ -1,4 +1,4 @@
-//CSO: Drone Delivery Optimization (Fixed Delivery Spot)
+
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
