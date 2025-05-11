@@ -6,13 +6,13 @@
 
 using namespace std;
 
-// Total number of drones (cats)
+
 const int NUM_DRONES = 3;
 const int MAX_ITER = 20;
 const int DELIVERY_X = 7;
 const int DELIVERY_Y = 5;
 
-// Function to calculate distance to delivery spot
+
 float distance(int x, int y) {
     return sqrt((x - DELIVERY_X) * (x - DELIVERY_X) + (y - DELIVERY_Y) * (y - DELIVERY_Y));
 }
@@ -30,7 +30,7 @@ void initDrone(Drone &d) {
 }
 
 void moveDrone(Drone &d) {
-    int newX = d.x + (rand() % 3 - 1); // -1, 0, or 1
+    int newX = d.x + (rand() % 3 - 1); 
     int newY = d.y + (rand() % 3 - 1);
 
     if (newX < 0) newX = 0;
